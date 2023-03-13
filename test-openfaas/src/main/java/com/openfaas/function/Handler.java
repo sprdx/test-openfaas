@@ -9,7 +9,7 @@ public class Handler extends com.openfaas.model.AbstractHandler {
 
     public IResponse Handle(IRequest req) {
         Response res = new Response();
-	    res.setBody("Hello, world!");
+	    res.setBody("Hello, Rachma!\n Semangat skripsiannya");
 
 	    return res;
     }
